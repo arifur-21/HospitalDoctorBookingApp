@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".DoctorRegisterFragment">
+
+    <TextView
+        android:layout_marginTop="-50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Register"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#292121"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/doctorRegisterFirestNameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your First Name"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_baseline_person_24" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/doctorRegisterLastNameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Last Name"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_baseline_person_24" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/doctorRegisterPhoneId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Phone"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_baseline_phone_android_24" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/doctorRegisterEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_baseline_email_24" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/doctorRegisterPasswordId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Password"
+            android:inputType="textPassword"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_baseline_lock_24" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/doctorRegisterBtnId"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sing Up"
+            android:id="@+id/doctorRegisterSingUpTvId"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#3486B3"/>
+    </LinearLayout>
+
+</LinearLayout>

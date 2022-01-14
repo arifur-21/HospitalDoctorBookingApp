@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AddDoctorProfileFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sliderimg1"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/addDoctorProfileImgId"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addDorctorProfile_nameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_baseline_person_24" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addDorctorProfile_addressId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Address"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_baseline_location_on_24" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addDorctorProfile_EmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+            android:drawableStart="@drawable/ic_baseline_email_24" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addDorctorProfile_qualificationId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Qualification"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_baseline_cast_for_education_24"
+             />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addDorctorProfile_specialityId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Speciality"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+             />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addDorctorProfile_feesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Fees"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+             />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayoutStyle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:boxStrokeColor="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addDorctorProfile_experienceId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Experience"
+            android:drawablePadding="10dp"
+            android:textSize="18sp"
+             />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Svae Doctor Profile"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/addDoctorProfileSaveBtnId"/>
+    </LinearLayout>
+
+</ScrollView>

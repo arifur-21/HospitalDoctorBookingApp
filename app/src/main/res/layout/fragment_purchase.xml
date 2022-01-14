@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3AACEA"
+    android:orientation="vertical"
+    tools:context=".PurchaseFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ssl"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General Hospital Appoinment"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TK."
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1500"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/purchaseTkId"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:text="Transaction is for testing purpose and your deducted amount will get refunded in 3-5 business days"
+            android:textColor="#DC3B3B"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:textColor="#DC3B3B"
+            android:text="Privacy Policy"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Purchase"
+            android:textStyle="bold"
+            android:id="@+id/purchaseBtnId"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

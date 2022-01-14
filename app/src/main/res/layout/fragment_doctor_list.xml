@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DoctorListFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/sliderimg1"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Speciality"
+        android:layout_marginTop="-25dp"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="#48D2E1"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:id="@+id/doctorListSpecialityId"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/doctorListFragmentRecyViewId"/>
+
+
+
+</LinearLayout>

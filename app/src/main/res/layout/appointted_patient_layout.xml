@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="7dp"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="10dp"
+       android:paddingTop="8dp"
+       android:paddingBottom="8dp"
+       android:background="#349CD5"
+       android:orientation="vertical">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:weightSum="2"
+           android:orientation="horizontal">
+           <TextView
+               android:textColor="@color/white"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="Patient Name :"
+               android:textSize="20sp"
+               android:textStyle="bold"
+              />
+
+           <TextView
+               android:textColor="@color/white"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:text="Name"
+               android:textSize="18sp"
+               android:textStyle="bold"
+               android:id="@+id/appointted_patientLayoutNameId"/>
+       </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Appointed Date :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="22/22/2222"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/appointtedPatientLayoutDateId"/>
+
+    </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:weightSum="2"
+           android:orientation="horizontal">
+           <TextView
+               android:textColor="@color/white"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="Appointed Time :"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               />
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textStyle="bold"
+               android:textSize="18sp"
+               android:text="time"
+               android:textColor="@color/white"
+               android:id="@+id/appointted_patientLayoutTimeId"/>
+
+
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    tools:context=".AdminFragment">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:text="Add Our Services"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       android:id="@+id/adminAddOurServicesBtnId"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:text="Add Speciality Services"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       android:id="@+id/adminAddSpecialityServicesBtnId"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:text="Add Doctor Profile"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       android:id="@+id/adminAddDoctorProfileId"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       android:text="Add Ambulance Service"
+       android:id="@+id/adminAddAmbulanceServiceId"/>
+
+</LinearLayout>

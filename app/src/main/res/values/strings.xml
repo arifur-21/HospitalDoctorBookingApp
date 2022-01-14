@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HospitalMagApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="bloodGroup">
+        <item>A+</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="time">
+        <item>10:00 - 1:00</item>
+        <item>2:00 - 4:00</item>
+        <item>6:00 - 8:00</item>
+
+    </string-array>
+</resources>
